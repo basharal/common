@@ -78,7 +78,7 @@ const (
 	// BucketRangeLabel is used for the label that defines the range for a
 	// particular bucket [start,end]. It's a new storage format for buckets
 	// that allows a more efficient storage and less scraping series.
-	BucketRangeLabel = "btwn"
+	BucketRangeLabel = "range"
 
 	// QuantileLabel is used for the label that defines the quantile in a
 	// summary.
